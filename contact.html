@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>World Tour - Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌍 World Tour</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="packages.html">Packages</a>
+            <a href="contact.html">Book Now</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Book Your Journey</h2>
+        <form action="thankyou.html" method="get">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="package">Select Package:</label><br>
+            <select id="package" name="package">
+                <option>European Delight</option>
+                <option>Asian Adventure</option>
+                <option>American Explorer</option>
+            </select><br><br>
+
+            <input type="submit" value="Confirm Booking">
+        </form>
+    </div>
+</body>
+</html>
